@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbNdoroarum from '../public/images/works/ndoroarum_01.png'
+import thumbSiskubis from '../public/images/works/siskubis_01.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -16,6 +17,11 @@ const Works = () => (
         <Section>
           <WorkGridItem id="ndoroarum" title="Ndoroarum" thumbnail={thumbNdoroarum}>
             A web portal for ndoroarum basecamp community.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="siskubis" title="Siskubis" thumbnail={thumbSiskubis}>
+            Information system for Bussiness Incubator of UNY.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
